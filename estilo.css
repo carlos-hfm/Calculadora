@@ -1,9 +1,11 @@
 .calc {
     background-color: black;
     padding: 20px;
+    width: 400px;
+    height: 250px;
 }
 
-#result {
+.texto {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -12,6 +14,17 @@
 .input {
     border: none;
     color: black;
-   
     margin-bottom: 10px;
+}
+
+
+
+.op {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
 }
