@@ -1,0 +1,45 @@
+<div class="calc">
+
+    <input type="number" id="agr1">
+    <input type="number" id="agr2">
+    <button class="op" onclick="somar()">Somar</button>
+    <button class="op" onclick="sub()">Subtrair</button>
+    <button class="op" onclick="multi()">Multiplicar</button>
+    <button class="op" onclick="dividir()">Dividir</button>
+    <br><br>
+
+    <div id="result"></div>
+</div>
+
+
+<script type="text/javascript">
+
+    function somar(){
+        var num1 = document.getElementById("agr1").value;
+        var num2 = document.getElementById("agr2").value;
+        var soma = parseInt(num1) + parseInt(num2);
+        document.getElementById("result").innerHTML="O resultado é " + soma;
+    }
+
+    function sub(){
+        var num1 = document.getElementById("agr1").value;
+        var num2 = document.getElementById("agr2").value;
+        var subt = parseInt(num1) - parseInt(num2);
+        document.getElementById("result").innerHTML="O resultado é " + subt;
+    }
+    
+    function multi(){
+        var num1 = document.getElementById("agr1").value;
+        var num2 = document.getElementById("agr2").value;
+        var mult = parseInt(num1) * parseInt(num2);
+        document.getElementById("result").innerHTML="O resultado é " + mult;
+    }
+
+    function dividir(){
+        var num1 = document.getElementById("agr1").value;
+        var num2 = document.getElementById("agr2").value;
+        var divi = parseInt(num1) / parseInt(num2);
+        document.getElementById("result").innerHTML="O resultado é " + divi;
+    }
+
+</script>
