@@ -1,0 +1,17 @@
+.calc {
+    background-color: black;
+    padding: 20px;
+}
+
+#result {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.input {
+    border: none;
+    color: black;
+   
+    margin-bottom: 10px;
+}
